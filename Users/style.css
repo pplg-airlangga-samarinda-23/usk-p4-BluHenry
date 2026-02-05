@@ -1,0 +1,152 @@
+body {
+    background-image:linear-gradient(to left,  wheat , rgb(244, 217, 145)  );
+    margin: 0;
+}
+
+.KotakGede {
+    display: flex;
+}
+
+.Container {
+    background-image: linear-gradient(to left, black, rgb(54, 54, 54)) ;
+    width: 100%;
+    height: 100vh;
+    max-width: 21rem;
+    border: 1rem solid black;
+}
+
+
+
+
+.judul {
+    font-size: 2rem;
+    color: aliceblue;
+    border: 1px double rgb(235, 233, 231);
+    text-align: center;
+    margin: 20px;
+}
+
+.Col {
+    font-size: 2rem;
+    text-decoration: none;
+    border: 2px solid rgb(29, 29, 29);
+    color: aliceblue;
+}
+
+.List {
+    padding-top: 20%;
+    
+}
+
+.menu-Items {
+    list-style: none;
+    margin: 15px 0;
+    font-size: 2.2rem;
+    cursor: pointer;
+
+    transition: transform 0.3s ease, opacity 0.3s ease, 0.5s;
+}
+
+
+
+.menu-Items:hover {
+    transition: 0.5s;
+    padding-left: 1.1rem;
+    color: wheat;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+
+/* simbol muncul pas hover */
+
+
+.Home {
+    padding: 3rem;
+}
+
+/* Judul utama */
+.Welcome {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraf pembuka */
+.Pembuka {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+/* Judul fitur */
+.Fiturs {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* List fitur */
+.ListFitur {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.ListFitur li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* Paragraf ajakan */
+.Ajakans {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+
+.kaki {
+    color: aliceblue;
+    text-align: center;
+    max-width: 21rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* Login Form */
+
+.KotakLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+}
+
+.KotakLogin_Mini {
+   background-image:linear-gradient(to left,  wheat , rgb(244, 217, 145)  );
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1rem solid black;
+    padding: 2.5rem;
+    box-shadow: 5rem;
+    border-radius: 20px;
+}
+
+.TeksLogin {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #5d4f36;
+}
+
+
+
+
+/* List buku */
+
+
+
+
