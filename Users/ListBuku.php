@@ -162,10 +162,7 @@ tbody tr:hover {
                             Cari
                         </button>
                     </form>
-
-            </div>
-            <div class="List buku">
-            <table>
+                        <table>
                 <thead>
                     <tr>
                         <th>No</th>
@@ -194,6 +191,7 @@ tbody tr:hover {
                 </tbody>
             </table>
             </div>
+
             
         </div>
 
